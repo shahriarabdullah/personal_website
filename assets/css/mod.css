@@ -44,7 +44,7 @@
   z-index: 1;
   position: absolute;
   top: 30px;
-  left: 1rem;
+  left: 3rem;
   -webkit-transform: translate(0, -50%);
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
@@ -52,7 +52,7 @@
   user-select: none;
   pointer-events: none;
   text-transform: uppercase;
-  font-size: 13.0rem;
+  font-size: 12.0rem;
 }
 
 .shahriar-fake-bg .shahriar-section:first-child {
