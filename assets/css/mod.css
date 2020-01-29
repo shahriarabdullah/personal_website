@@ -1,16 +1,17 @@
 .shahriar-fake-bg {
   position: relative;
-  z-index: 9000;
+  z-index: 9;
   background: #f8f8f8;
-  top: 0px;
+  height: 100%
+  /*top: 0px;*/
   /*top: -3rem;*/
 }
 
 .shahriar-section {
-  -webkit-box-shadow: 0 30px 50px 0 rgba(1, 1, 1, .15);
-  box-shadow: 0 30px 50px 0 rgba(1, 1, 1, .15);
+  /*-webkit-box-shadow: 0 30px 50px 0 rgba(1, 1, 1, .15);*/
+  box-shadow: 20px 30px 50px 0 rgba(1, 1, 1, .15),-20px -30px 50px 0 rgba(1, 1, 1, .15);
   max-width: 1170px;
-  margin: 0 auto 10rem;
+  margin: 2rem auto 10rem;
   width: 95%;
   padding: 6rem 0 15rem;
   /*position: relative;*/
@@ -20,22 +21,41 @@
   /*z-index: 90;*/
   /*margin: 20px;*/
   background-color: white;
+  margin-bottom: 50px;
+  position: relative;
+  z-index:10;
 }
 
 .section-content {
   max-width: 720px;
-  margin: 0 auto 12rem;
+  margin: 0 auto 6rem;
 }
 
 .shahriar-post {
   position: relative;
   margin-bottom: 9rem;
-  padding-bottom: 10rem;
+  padding-bottom: 1rem;
 }
 
 .entry-header {
   margin-bottom: 2.6rem;
   font-family: 'Josefin Sans';
+}
+
+.entry-header h1{
+  margin: 50px 0px 1px;
+  padding-left: 0px;
+  margin-left: 3rem;
+  font-weight: bold;
+}
+
+.article-content {
+  margin-left:3rem;
+}
+
+.article-content p{
+  padding-right: 3rem;
+  font-size: 20px;
 }
 
 .post-letter {
@@ -58,8 +78,8 @@
 .shahriar-fake-bg .shahriar-section:first-child {
   top: -5rem;
   position: relative;
-  z-index: 900;
-  margin-bottom: 0;
+  z-index: 9;
+  margin-bottom: 0px;
   top: -80px;
 }
 
@@ -74,4 +94,3 @@ p {
 hr {
   border: .75px solid rgb(186,181,181);
 }
-

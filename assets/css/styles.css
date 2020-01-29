@@ -1,3 +1,8 @@
+body {
+background-color: rgb(2,136,209);  
+}
+
+
 .jumbotron {
   background: url(img1.jpg;
 }
@@ -13,4 +18,3 @@
   display: flex;
   justify-content: center;
 }
-
