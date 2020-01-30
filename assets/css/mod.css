@@ -93,6 +93,7 @@ p {
 
 hr {
   border: .75px solid rgb(186,181,181);
+  margin-right: 3rem;
 }
 
 .snap {
@@ -101,7 +102,7 @@ hr {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   float:left;
   margin-right:10px;
-  margin-top:10px;
+  /*margin-top:10px;*/
   margin-bottom:10px;
 
   border: 1px solid #ddd;
@@ -109,4 +110,8 @@ hr {
    padding: 5px;
 
   text-align: center;
+}
+
+h3.sub-header{
+  margin-top:80px;
 }
