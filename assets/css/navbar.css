@@ -70,8 +70,11 @@ a {
   position: absolute;
   top: 42px;
   left: 48px;
-  margin: auto;
-  max-width: 570px;
+
+  margin-right:20px;
+  /*margin: auto;*/
+  /*max-width: 570px;*/
+  width:100%
   overflow: hidden;
   z-index: 11;
 }
