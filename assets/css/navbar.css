@@ -71,7 +71,7 @@ a {
 .ham-menu {
   position: absolute;
   top: 42px;
-  left: 42px; /*Fixed from 48px*/
+  left: 38px; /*Fixed from 48px*/
 
   margin-right:20px;
   /*margin: auto;*/
