@@ -5,6 +5,12 @@ button.onclick =  function() {
   span.classList.toggle('hamburger-menu-button-close');
 };
 
+if($(window).width()>=768){
+document.getElementById("ham-navigation").className += " on";
+}
+
+
+
 $('#hamburger-menu').on('click', toggleOnClass);
 
 function toggleOnClass(event) {

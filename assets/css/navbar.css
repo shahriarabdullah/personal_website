@@ -4,9 +4,11 @@ body {
     color: #444444;
 }
 a {
-  color: #ff7013;
+  color: rgb(33, 71, 196) /*#50a347;*/ /*#ff7013*/
   text-decoration: none;
 }
+
+
 .hamburger-menu-button {
   width: 40px;
   height: 40px;
@@ -69,7 +71,7 @@ a {
 .ham-menu {
   position: absolute;
   top: 42px;
-  left: 48px;
+  left: 42px; /*Fixed from 48px*/
 
   margin-right:20px;
   /*margin: auto;*/
