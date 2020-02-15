@@ -19,6 +19,7 @@ a {
   z-index: 12;
   background: #2d2f30;
   border: 5px solid rgb(2,136,209);
+  margin-left: 8px;
   box-sizing: content-box;
   border-radius: 50%;
   text-indent: 100%;
@@ -72,13 +73,14 @@ a {
   position: absolute;
   top: 42px;
   left: 38px; /*Fixed from 48px*/
-
+  right: 10px;
   margin-right:20px;
   /*margin: auto;*/
   /*max-width: 570px;*/
   width:100%
   overflow: hidden;
   z-index: 11;
+  margin-bottom: 8px;
 }
 .ham-menu ul {
   -webkit-transform: translateX(-110%);
