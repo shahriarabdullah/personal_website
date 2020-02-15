@@ -5,11 +5,24 @@ button.onclick =  function() {
   span.classList.toggle('hamburger-menu-button-close');
 };
 
-if($(window).width()>=768){
+ if($(window).width()>=768){
 document.getElementById("ham-navigation").className += " on";
 }
 
+$(window).resize(function() {
 
+  if($(window).width()<768){
+    document.getElementById("ham-navigation").classList.remove("on");
+
+
+} else if(document.getElementById("ham-navigation").classList.contains(" on")){
+
+
+
+} else {
+  document.getElementById("ham-navigation").className += " on";
+}
+});
 
 $('#hamburger-menu').on('click', toggleOnClass);
 
