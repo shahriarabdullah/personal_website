@@ -38,3 +38,7 @@ function toggleOnClass(event) {
 $( '.menu li a' ).on("click", function(){
   $('#hamburger-menu').click();
 });
+
+$("#phone").on('click', function(event) {
+    alert("Why do you expect my contact number to be publicly available? :p");
+});
