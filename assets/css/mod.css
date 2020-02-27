@@ -175,6 +175,7 @@ section.proj:hover{
 .book {background-color:#a47ecc;}
 .movie {background-color: #d4c050;}
 .hobby {background-color: #42a1f5;}
+.notice {background-color: #d1704f}
 .other {background-color: #e7e7e7; color: black;} /* Gray */
 
 .small-logo{
@@ -188,4 +189,15 @@ footer {
   font-family: 'Domine';
   font-weight: bold;
   padding-bottom:10px;
+}
+
+body ul.contact {
+  font-size: 10rem;
+}
+
+body ul li.grow {
+  transition: all .2s ease-in-out;
+}
+body ul li.grow:hover {
+  transform: scale(1.5);
 }
